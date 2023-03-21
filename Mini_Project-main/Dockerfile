@@ -1,4 +1,4 @@
-FROM openjdk:11
+FROM openjdk:8
 MAINTAINER Mohith Sathyanarayanan mohith2018@gmail.com
 COPY ./target/SciCal-1.0-SNAPSHOT-jar-with-dependencies.jar ./
 WORKDIR ./
